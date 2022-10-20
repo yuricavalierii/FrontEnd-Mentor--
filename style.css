@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D6E2F0 ;
+    height: 100vh;
+}
+
+.conteiner-main {
+    height:inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartao-qrcode {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.foto-qrcode {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.texto-descricao {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.estilo-texto {
+    font-family: 'Outfit', sans-serif;
+}
+
+#titulo-cartao {
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#paragrafo-cartao {
+    font-weight: 400;
+    margin-top: 20px;
+    color: gray;
+}
